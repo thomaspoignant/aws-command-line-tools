@@ -3,7 +3,7 @@ getAwsTokens() {
   MFA_ARN=$1
   MFA_CODE=$2
   
-  if [ $NB_PARAMS != 1 ]; then;
+  if [ $NB_PARAMS != 2 ]; then;
     echo "USAGE : $0 <<YOUR MFA ARN>> <<YOUR MFA CODE>>"
     return
   fi
