@@ -1,11 +1,11 @@
 # aws-command-line-tools
 
 Some tools I use to manage AWS.
-Most of the things in this repo are mean to put in your .bash_profile or .zsh_profile to have a set of commands tools to setup a correct environnement.
+Most of the things in this repo are mean to put in your ```.bash_profile``` or ```.zsh_profile``` to have a set of commands tools to setup a correct environnement.
 
 ## awsTokens
 If like me your aws token has MFA activated you need to use it on command line as well.
-Function awsTokens perform the MFA and put in env variables your AWS_ACCESS_KEY_ID, AWS_SECRET_ACCESS_KEY and an AWS_SESSION_TOKEN to use the aws command line.
+Function awsTokens perform the MFA and put in env variables your ```AWS_ACCESS_KEY_ID```, ```AWS_SECRET_ACCESS_KEY``` and an ```AWS_SESSION_TOKEN``` to use the aws command line.
 
 ### How to get my MFA arn
 To get You MFA ARN you need to have your AWS cli configure _(aws configure is your friend)_.  
